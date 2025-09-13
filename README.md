@@ -75,7 +75,7 @@ An advanced **Pokétwo autocatcher + spammer** written in Node.js with multi-tok
 
 ## 📖 Notes
 - Selfbots are against Discord ToS – use at your own risk.  
-- For **educational purposes only**.  
+- For **fun purposes only**.  
 - Webhook logging makes it easy to monitor everything remotely.  
 
 ---
@@ -88,3 +88,4 @@ An advanced **Pokétwo autocatcher + spammer** written in Node.js with multi-tok
 - Logging + webhooks ✅  
 
 - User-friendly `.help` ✅
+
