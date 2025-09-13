@@ -15,17 +15,17 @@ An advanced **Pokétwo autocatcher + spammer** written in Node.js with multi-tok
 ---
 
 ## 📂 Project Structure
-poketwo-autocatcher/
- ├── autocatcher/index.js       # Selfbot autocatcher (spam + catching)
- ├── utils/logger.js            # Logger + file/webhook logging
- ├── data/tokens.txt            # Tokens + spam channel IDs
- ├── data/pokemon.txt           # Full Pokémon list
- ├── data/main_token.txt        # Main bot’s token
- ├── logs/catches.txt           # Catch logs
- ├── logs/stats.json            # Stats tracker
- ├── config.json                # Webhooks + settings
- ├── index.js                   # Main bot (manages autocatchers)
- └── package.json
+ - poketwo-autocatcher/
+ - ├── autocatcher/index.js       # Selfbot autocatcher (spam + catching)
+ - ├── utils/logger.js            # Logger + file/webhook logging
+ - ├── data/tokens.txt            # Tokens + spam channel IDs
+ - ├── data/pokemon.txt           # Full Pokémon list
+ - ├── data/main_token.txt        # Main bot’s token
+ - ├── logs/catches.txt           # Catch logs
+ - ├── logs/stats.json            # Stats tracker
+ - ├── config.json                # Webhooks + settings
+ - ├── index.js                   # Main bot (manages autocatchers)
+ - └── package.json
 
 ---
 
@@ -86,4 +86,5 @@ poketwo-autocatcher/
 - Captcha-safe ✅  
 - Central control via main bot ✅  
 - Logging + webhooks ✅  
+
 - User-friendly `.help` ✅
