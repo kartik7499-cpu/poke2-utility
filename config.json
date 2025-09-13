@@ -1,0 +1,6 @@
+{
+  "webhooks": {
+    "catches": "catch_logging_webhook",
+    "captchas": "captcha_logging_webhook"
+  }
+}

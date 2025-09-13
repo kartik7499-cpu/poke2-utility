@@ -1,0 +1,28 @@
+{
+  "name": "poketwo-js-prototype",
+  "version": "1.0.0",
+  "description": "Pokétwo autocatcher prototype with selfbots and main manager bot",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "catcher": "node autocatcher/index.js",
+    "postinstall": "node scripts/patch-selfbot.js"
+  },
+  "keywords": [
+    "poketwo",
+    "discord",
+    "selfbot",
+    "autocatcher",
+    "bot"
+  ],
+  "author": "YourNameHere",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "discord.js": "^14.15.3",
+    "discord.js-selfbot-v13": "^2.14.9",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.2.0"
+  }
+}
